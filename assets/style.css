@@ -1,0 +1,29 @@
+.parallax { 
+    /* The image used */
+    /* background-image: url("./images/comp.jpeg"); */
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+ 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax img {
+    width: 100vw;
+}
+
+.projectImg{
+  border-radius: 5%;  
+}
+
+.skyImg{
+  float: left;
+  width:300px;
+  height:400px;
+  
+}
